@@ -13,7 +13,7 @@ app.use (err, req, res, next) ->
   res.send(500, 'Something broke!')
 
 # connect
-require('./resources/build').connect app
+require('./src/resources/build').connect app
 
 # start
 app.listen 3000
