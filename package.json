@@ -1,0 +1,11 @@
+{
+    "name": "build-pipeline-tool",
+    "description": "Build Pipeline Tool",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "coffee-script": "1.4.0",
+        "express": "3.x",
+        "jasmine-node": "1.2.3"
+    }
+}
