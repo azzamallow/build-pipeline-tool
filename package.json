@@ -1,11 +1,17 @@
 {
     "name": "build-pipeline-tool",
     "description": "Build Pipeline Tool",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "private": true,
+    "devDependencies": {
+      "grunt": "~0.4.0",
+      "grunt-contrib-jshint": "~0.1.1",
+      "grunt-contrib-nodeunit": "~0.1.2",
+      "grunt-contrib-jasmine": "~0.3.3",
+      "grunt-contrib-watch": "0.2.0"
+    },
     "dependencies": {
         "coffee-script": "1.4.0",
-        "express": "3.x",
-        "jasmine-node": "1.2.3"
+        "express": "3.x"
     }
 }
