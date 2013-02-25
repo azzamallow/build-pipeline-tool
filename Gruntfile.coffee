@@ -2,14 +2,14 @@ module.exports = (grunt) ->
 
   grunt.initConfig
     jasmine:
-      src: 'src/**/*.js'
+      src: 'tmp/src/**/*.js'
       options:
-        specs: 'spec/**/*.js'
+        specs: 'tmp/spec/**/*.js'
     coffee:
       compile:
         files:
-          'src/app_src.js':   ['src/**/*.coffee'],
-          'spec/app_spec.js': ['spec/**/*.coffee']
+          'tmp/src/app_src.js':   ['src/**/*.coffee'],
+          'tmp/spec/app_spec.js': ['spec/**/*.coffee']
 
   grunt.loadNpmTasks 'grunt-contrib-coffee'
   grunt.loadNpmTasks 'grunt-contrib-jasmine'
